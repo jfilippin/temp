@@ -7,6 +7,8 @@ mkdir -p "$BASE_DIR"
 
 # Lista dos repositórios
 repos=(
+  "https://opensuse.c3sl.ufpr.br/distribution/leap/16.0/repo/oss/noarch/"
+  "https://opensuse.c3sl.ufpr.br/distribution/leap/16.0/repo/oss/x86_64/"
   "https://opensuse.c3sl.ufpr.br/distribution/leap/16.0/repo/non-oss/noarch/"
   "https://opensuse.c3sl.ufpr.br/distribution/leap/16.0/repo/non-oss/x86_64/"
 )
