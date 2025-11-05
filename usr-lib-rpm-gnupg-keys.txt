@@ -1,0 +1,6 @@
+stuepp@localhost:~> cd /usr/lib/rpm/gnupg/keys/
+stuepp@localhost:/usr/lib/rpm/gnupg/keys> ls
+gpg-pubkey-09d9ea69-68595a8c.asc  gpg-pubkey-287a0027-682477e3.asc  gpg-pubkey-39db7c82-66c5d91a.asc
+gpg-pubkey-25db7ae0-645bae34.asc  gpg-pubkey-29b700a4-62b07e22.asc  gpg-pubkey-3fa1d6ce-67c856ee.asc
+
+

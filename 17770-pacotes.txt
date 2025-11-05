@@ -1,0 +1,50 @@
+Conferindo as chaves usadas para assinar pacotes:
+        Chaves usadas para assinar os pacotes:
+                Conheço essa chave:
+                gpg-pubkey-287a0027-682477e3 openSUSE Backports for SUSE Linux 16 <sle-backports-202500514@opensuse.org> public key
+                Conheço essa chave:
+                gpg-pubkey-09d9ea69-68595a8c SUSE 16 Package Signing Key <build-suse16@suse.de> public key
+                Conheço essa chave:
+                gpg-pubkey-29b700a4-62b07e22 openSUSE Project Signing Key <opensuse@opensuse.org> public key
+
+        Total de chaves com assinatura OK: 17770
+        Total de chaves com assinatura NOT OK: 0
+
+        Total de pacotes: 17770
+        Total de pacotes assinados: 17770
+        Total de pacotes não assinados: 0
+
+-----------------------------------
+
+Conferindo algoritmos criptográficos usados e tamanhos de chave utilizados:
+
+        Estamos em uma OS diferente do Fedora (provavelmente openSUSE ou derivado)
+
+        Verificando agora chaves utilizadas pelos pacotes
+
+                Chave sendo verificada: gpg-pubkey-29b700a4-62b07e22 openSUSE Project Signing Key <opensuse@opensuse.org> public key
+                Extraindo informações da chave...
+                Data de criação: 2022-06-20
+                Data de expiração: 2026-06-19
+                Resumo do pacote associado:
+                Chave sendo verificada: gpg-pubkey-287a0027-682477e3 openSUSE Backports for SUSE Linux 16 <sle-backports-202500514@opensuse.org> public key
+                Extraindo informações da chave...
+                Data de criação: 2025-05-14
+                Data de expiração: 2036-04-26
+                Resumo do pacote associado:
+                Chave sendo verificada: gpg-pubkey-09d9ea69-68595a8c SUSE 16 Package Signing Key <build-suse16@suse.de> public key
+                Extraindo informações da chave...
+                Data de criação: 2023-05-10
+                Data de expiração: 2029-08-01
+                Resumo do pacote associado:
+
+        Algoritmo de hash e tamanho utilizados
+                Chave: 488c583d287a0027; Algoritmo hash e tamanho: SHA512
+                Chave: fec28eaf09d9ea69; Algoritmo hash e tamanho: SHA256
+                Chave: 35a2f86e29b700a4; Algoritmo hash e tamanho: SHA512
+
+Compilation of rpmver.c was successful. Executable name -> rpmver
+-----------------------------------
+Verificando versão RPM dos pacotes:
+Versões encontradas:
+3.0

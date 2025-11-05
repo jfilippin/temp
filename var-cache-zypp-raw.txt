@@ -1,0 +1,43 @@
+stuepp@localhost:~> cd /var/cache/zypp/raw/
+stuepp@localhost:/var/cache/zypp/raw> ls
+Leap  openSUSE:repo-openh264  openSUSE:repo-oss
+stuepp@localhost:/var/cache/zypp/raw> cd Leap/
+stuepp@localhost:/var/cache/zypp/raw/Leap> ls
+media.1  repodata
+stuepp@localhost:/var/cache/zypp/raw/Leap> cd repodata/
+stuepp@localhost:/var/cache/zypp/raw/Leap/repodata> ls
+4229838b4254437643bc9fbec04b60e6cea76fa7db5133ca6cd31cd7ca1e01e977f4de1e8f1ade7a57ae4910db735fc80f1c7a4f61462384df68f4687cb39aef-susedata.xml.zst
+51e5c5a38c6f09ddb0db2fdd55c523279029ba1746d8e496f1aff8f4412124a36e2b9390f88bf3f56505b8e7ec6381088ee53e429d7419eba9f03831fb59221c-appdata.xml.gz
+6cdbd1358674905db8c2703c18216d73fd4758a1603d7107dedc308f44fcbcee46d93e8d0089c3acf2b384df4c737abfbb1c7fb16b2c2dcb77734cbbd018ff95-primary.xml.zst
+a9c4245709079ecd76d32232a0fc677c8b47009534320f6b640735e186f6d8fc72909f2c65abea58f1f56946acf16b1f2f320584cdf88cccae9723e768dbaccb-license.tar.zst
+ad71dfccbb2134455864a924a8c856cf6f0244668cf1fa937b5328b54e04d8cc25a492baf7cb0c61bfef79e7445cfd2e2dcc345ca251605176d3c8ebd0187f71-appdata-icons.tar.gz
+repomd.xml
+repomd.xml.asc
+stuepp@localhost:/var/cache/zypp/raw/Leap/repodata> cd ..
+stuepp@localhost:/var/cache/zypp/raw/Leap> cd media.1/
+stuepp@localhost:/var/cache/zypp/raw/Leap/media.1> ls
+media
+stuepp@localhost:/var/cache/zypp/raw/Leap/media.1> cd ..
+stuepp@localhost:/var/cache/zypp/raw/Leap> cd ..
+stuepp@localhost:/var/cache/zypp/raw> cd openSUSE\:repo-openh264/
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-openh264> ls
+repodata
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-openh264> cd repodata/
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-openh264/repodata> ls
+071fafed65e6f2f755a9a9dbaf33274f00696b6495d271ec67bc843cd34752fc0db74413b9809ac295d269c7d345dfda954e7080ccfb3c398a261ff1f24af63a-filelists-ext.xml.gz
+97f9f1dd036b021e2845af3a4652db428fb11325b245f612b532dcc53ce36b47c272d2106305b3e50adb35e498eba7c5b69adc1f0e7ca6f72f8bfef85ec842ec-primary.xml.gz
+repomd.xml
+repomd.xml.asc
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-openh264/repodata> cd ..
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-openh264> cd ..
+stuepp@localhost:/var/cache/zypp/raw> cd openSUSE\:repo-oss/
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-oss> ls
+mirrorlist  mirrorlist.cookie  repodata
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-oss> cd repodata/
+stuepp@localhost:/var/cache/zypp/raw/openSUSE:repo-oss/repodata> ls
+3f8aa7873b7d8dc0056c863ffbc3b1eb3c5445badb011045e06c3ea273132abce049df376287cdf7fce147a97ff02bd0c51385e86ff90969a7281b309457fd94-susedata.xml.zst
+72d08bbc8bb319abcf0fe8b0617113762fa65161c18c13cb88238691bc90321c654a40095ce2ac313d29c2c285b96933a00ec3674a5e5939a365a0b0bbd41312-appdata.xml.gz
+86d69354213250643e292058efc973c6f1116b7bd93b424f583b45f6091ac43884499769a713deabbcc6650f834a6b1c3e46e161755f9816a291340c2ffc27a7-primary.xml.zst
+9d8ebebd72f4bf6102c54f147300b6115cd03d9c7c40806adec678dbadb748393d747c0d52da5d1c5c5da2a8a51c8d69b8e3731fa3c154fc31ed0ec93d4182a2-appdata-icons.tar.gz
+repomd.xml
+repomd.xml.asc

@@ -1,0 +1,34 @@
+Conferindo as chaves usadas para assinar pacotes:
+        Chaves usadas para assinar os pacotes:
+                Conheço essa chave:
+                gpg-pubkey-29b700a4-62b07e22 openSUSE Project Signing Key <opensuse@opensuse.org> public key
+
+        Total de chaves com assinatura OK: 10
+        Total de chaves com assinatura NOT OK: 0
+
+        Total de pacotes: 10
+        Total de pacotes assinados: 10
+        Total de pacotes não assinados: 0
+
+-----------------------------------
+
+Conferindo algoritmos criptográficos usados e tamanhos de chave utilizados:
+
+        Estamos em uma OS diferente do Fedora (provavelmente openSUSE ou derivado)
+
+        Verificando agora chaves utilizadas pelos pacotes
+
+                Chave sendo verificada: gpg-pubkey-29b700a4-62b07e22 openSUSE Project Signing Key <opensuse@opensuse.org> public key
+                Extraindo informações da chave...
+                Data de criação: 2022-06-20
+                Data de expiração: 2026-06-19
+                Resumo do pacote associado:
+
+        Algoritmo de hash e tamanho utilizados
+                Chave: 35a2f86e29b700a4; Algoritmo hash e tamanho: SHA512
+
+Compilation of rpmver.c was successful. Executable name -> rpmver
+-----------------------------------
+Verificando versão RPM dos pacotes:
+Versões encontradas:
+3.0
